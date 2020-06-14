@@ -40,7 +40,7 @@ public class ProductCategory {
     public static ArrayList<ProductCategory> getCategoryData() {
         return new ArrayList<ProductCategory>() {
             {
-                add(new ProductCategory("Burger", R.drawable.burger));
+                add(new ProductCategory("burger", R.drawable.burger));
                 add(new ProductCategory("Cold Drinks", R.drawable.colddrink));
                 add(new ProductCategory("Doughnut", R.drawable.doughnut));
                 add(new ProductCategory("DrumStick", R.drawable.drumstick));
